@@ -1,6 +1,13 @@
 .App {
   text-align: center;
+  
+  color:red;
 }
+
+.movie{
+  list-style: none;
+}
+
 
 .App-logo {
   height: 40vmin;

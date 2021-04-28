@@ -1,16 +1,20 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
-import './component/Counter';
 import Counter from './component/Counter';
+import  MoviesList  from './component/MoviesList';
+import  Speedometer from './component/Speedometer';
 
 function App() {
 
- 
+ const [isOnline, setisOnline] = useState(true);
 
   return (
-    <div>
+    <div className="App">
+      <h1>Learning React!</h1>
+      <Counter />
+      {isOnline ? <MoviesList /> : <Speedometer />}
+      <button onClick={()=>setisOnline(!isOnline)}>isOnline:{isOnline.toString()}</button>
       
-      <Counter></Counter>
     </div>
   );
 }
