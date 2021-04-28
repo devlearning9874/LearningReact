@@ -82,8 +82,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Important Questions!
 
-Q. What is props?
-   Props is special keyword in React which properties, used to pass data from one component to other. Data coming from parent component to child component can be modified in child component.
+   Q. What is props?
+   Props is special keyword in React which means properties, used to pass data from one component to other. Data coming from parent component to child component can be modified in child component.
 
 ### Important packages
 
