@@ -12,6 +12,12 @@ import React, {useState, useEffect} from 'react'
 
     useEffect(() => {
        console.log("Currrent speed changed to:", speed);
+        return () =>{
+                 //Cleaner function returns before effect.
+          console.log("Older value of speed", speed);
+        }
+            
+      
     }, [speed])
 
     useEffect(() => {

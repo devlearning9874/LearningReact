@@ -14,6 +14,7 @@ const PropsDemo = () => {
   ];
 
   return <div>
+      <hr />
       <h1>Cars List</h1>
        <Cars  cars={cars} />
   </div>;

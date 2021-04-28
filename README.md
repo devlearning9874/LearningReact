@@ -74,6 +74,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 2. Conditional rendering
 3. Use  of useState & useEffect hook.
 4. Use of Axios to fetch api.
+5. Form Handling
+6. Styling React App
 
 ### REACT Beginner Note:-
 1. Always use PascalCase for the naming react component.
@@ -82,3 +84,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Q. What is props?
    Props is special keyword in React which properties, used to pass data from one component to other. Data coming from parent component to child component can be modified in child component.
+
+### Important packages
+
+    1. Formik:- React hooks and components for hassle-free form validation. The world's leading companies use Formik to build forms and surveys in React and React Native.
