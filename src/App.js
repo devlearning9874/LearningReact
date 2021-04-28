@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import Counter from './component/Counter';
 import  MoviesList  from './component/MoviesList';
+import  PropsDemo  from './component/PropsDemo';
 import  Speedometer from './component/Speedometer';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Counter />
       {isOnline ? <MoviesList /> : <Speedometer />}
       <button onClick={()=>setisOnline(!isOnline)}>isOnline:{isOnline.toString()}</button>
-      
+      <PropsDemo />
     </div>
   );
 }

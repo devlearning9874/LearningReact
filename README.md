@@ -69,6 +69,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+#Topics To Learn
+1. React Props & Component(fuctional vs class).
+2. Conditional rendering
+3. Use  of useState & useEffect hook.
+4. Use of Axios to fetch api.
 
 ### REACT Beginner Note:-
-1. Always use PascalCase for to name react component.
+1. Always use PascalCase for the naming react component.
+
+### Important Questions!
+
+Q. What is props?
+   Props is special keyword in React which properties, used to pass data from one component to other. Data coming from parent component to child component can be modified in child component.
